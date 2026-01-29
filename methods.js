@@ -111,3 +111,23 @@ let nestedArray = [1,2,[3,4],[5,6]]
 console.log("deafult nested array:",nestedArray)
 let flatArray = nestedArray.flat()
 console.log("flatArray",flatArray)
+
+//Array destructuring
+// let array =[1,2,3,4,5]
+// const [first,second,third] = array
+// console.log(first)
+// console.log(second)
+// console.log(third)
+
+//skipping values
+let array1 = [1,2,3,4]
+const [first, , third] = array1
+console.log(first)
+console.log(third)
+
+//rest operater
+const num1 = [1,2,3,4,5]
+const [fir,second,...rest] = num1
+console.log(fir)
+console.log(second)
+console.log(rest)
