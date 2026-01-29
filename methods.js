@@ -103,7 +103,7 @@ console.log("after filter old array:",numbers)
 console.log("forEach : ")
 numbers.forEach(num => console.log(num))
 
-let num = [3,,5,2,4,1]
+let num = [3,5,2,4,1]
 //console.log("sort() :",num.sort())
 console.log("reverse() :",num.reverse())
 
